@@ -1,0 +1,41 @@
+body{
+  margin:0;
+}
+.red{
+height:200px;
+width:200px;
+background-color:red;
+position:absolute; /*absolute positons happens relative to the parent (here body) like top of the body left of the body*/
+top:400;
+left:400;
+}
+/* relative
+display: inline-block;
+position: relative; /* relative positioning reacts to the position of the previously placed position like left of the bluebo by...mentioned pixel
+left: 400px;
+*/
+.blue{
+height:200px;
+width:200px;
+background-color: blue;
+position: absolute;
+top:200;
+left:200;
+
+
+}/*
+display: inline-block;
+position: relative;
+right:200px;
+*/
+
+.yellow{
+height:200px;
+width:200px;
+background-color:yellow;
+position: absolute;
+}
+
+/*display: inline-block;
+position: relative;
+right:200px;*/

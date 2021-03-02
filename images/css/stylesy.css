@@ -1,0 +1,156 @@
+body{
+    margin:0;
+    text-align: center; /*works for every element in body unless otherwise width for element is specified when width specified and also if it is needed to align tat elmnt at centre "margin" can be used */
+    color: #40514E;
+  }
+h1
+{
+  color:#66BFBF;
+  margin:50px auto 0 auto;
+  font-size: 4rem;
+  font-family: "Niconne", serif;
+    /*16px=100%=1em; px/16=em*/
+  /*margin:auto-arranges the elemnt centre either vertically or horizontally*/
+
+  /*line-height: 2*/;
+}
+h2{
+  font-size: 2rem;
+  color:#66BFBF;
+  font-weight: normal;
+}
+h3{
+  color:#11999E;
+}
+.profile
+{
+  margin: 0 auto 100px auto;
+  width: 50%;
+  line-height: 2;
+}
+.skill-row
+{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+.contact-me
+{
+  line-height: 3;
+ width: 50%;
+ margin: 100px auto 100px auto;
+}
+.top_cloud
+{
+   position: absolute;
+   right:300px;
+   top:50px;
+}
+.bottom_cloud
+{
+  position: absolute;
+  left:300px;
+  bottom:300px;
+}
+
+.type{
+  float: left;
+  margin-right: 30px;
+}
+.danci{
+  float : right;
+  margin-left: 8px;
+}
+/*
+.para_type
+{
+  clear: left;
+}
+.para_dance
+{
+  clear: right;
+}*/
+.rights
+{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+     word-spacing: 0;
+     padding:20px 0;
+}
+.topcontainer
+{
+  background-color: #ecfcff;
+  position: relative;
+  padding-top: 100px;
+ /*no need dimensionssince it has content it has its own dimensions*/
+}
+.bottomcontainer
+{
+  color: #11999E;
+  background-color: #66BFBF;
+  padding: 50px;
+  line-height: 3;
+  word-spacing: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover
+ {
+  color: #FFFFFF
+}
+
+hr{
+   border: dotted #EAF6F6 8px;
+   border-bottom: none;
+   width: 7%;
+   margin: 100px auto;
+}
+.footer-link
+{
+  color:#11999E;
+  text-decoration: none;
+
+}
+.BUTTON_HGI {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 50px;
+   line-height: 50px;
+   color: #FFFFFF;
+   font-family: Arial;
+   width: 200px;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 0;
+   background-color: #66BFBF;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+
+}
+.middlecontainer
+{
+  background-color:#f5fcff;
+}
+
+
+
+
+
+/*
+.middlecontainer
+{
+  background-color: purple;
+  width: 200px;
+  height: 200px;  /*need dimensions since no content specified
+}
+.bottomcontainer
+{
+   background-color: silver;
+   width: 200px;
+   height: 200px;
+} */
